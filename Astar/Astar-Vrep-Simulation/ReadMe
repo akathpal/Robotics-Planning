@@ -1,0 +1,20 @@
+A-star Vrep Simulation without Differential Constraints 
+
+How to run code:
+1)Run Vrep 
+2)Open rrlideal_final.ttt map from map folder
+3)Start the simulation in Vrep
+4)Run vrep_connect.m
+5)Select Goal Point 
+-- Watch the video -Test with explanation - i have explained the process of running the code
+
+To change the resolution modify the res parameter
+To see the nodes generated, uncomment the plot lines in turtlebot_atar function in all actions
+
+Output-
+
+The output text file iis generated using the graph from vrep simulation
+I have included the screenshots of the vrep simulation while i was generating the data for velocity
+The data is then exported in csv format, from which i extracted the velocities
+The frequency is 20Hz while extracting data. I have skipped some values and also provided the 2hz file in the output folder.
+

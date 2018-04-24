@@ -1,0 +1,16 @@
+A-star with Differential Constraints
+
+How to run code:
+1)Run enpm661_proj3_main
+2) To save data in text file run file_write.m matlab function
+
+To change the resolution modify the res parameter
+To see the nodes generated, uncomment the plot lines in all actions
+
+In output folder, there are text files which consists of data as required. 
+1hz output
+output1 is corresponding to Output1.jpg
+output3 is corresponding to path shown in Output3.png
+
+2hz output
+final_output is corresponding to final_output path

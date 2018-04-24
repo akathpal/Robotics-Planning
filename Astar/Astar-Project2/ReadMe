@@ -1,0 +1,10 @@
+A-star Implementation @Abhishek Kathpal
+
+To run Code:
+1)Run enpm661_proj3_main.m
+2)Select Goal and Start Points when prompted to ask
+
+Output:
+1)Go to Astar-Project2 -> Output
+
+--If you want to see the generated nodes, uncomment the plot lines in each action.

@@ -1,0 +1,7 @@
+A-star without Differential Constraints
+
+How to run code:
+1)Run enpm661_proj3_main
+
+To change the resolution modify the res parameter
+To see the nodes generated, uncomment the plot lines in all actions
