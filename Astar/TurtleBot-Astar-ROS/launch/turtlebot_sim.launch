@@ -1,0 +1,12 @@
+<launch>
+
+
+   <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+	<arg name="world_file" value="/opt/ros/indigo/share/turtlebot_gazebo/worlds/empty.world"/>
+   </include>
+   	<include file="$(find turtlebot_gazebo)/launch/gmapping_demo.launch"/>
+ 	<include file="$(find turtlebot_rviz_launchers)/launch/view_navigation.launch"/>
+   <node name="turtlebot_sim" pkg="turtlebot_sim" type="turtlebot_sim" output="screen"/>
+
+
+</launch>
